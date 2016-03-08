@@ -37,7 +37,7 @@ public class TestWinkel {
         // System.out.println(mandje.toString());
         for (Map.Entry e : mandje.getMandje().entrySet()) {
             Product pp = (Product)e.getKey();
-            System.out.println(e.getValue() + " stuk(s) van " + e.getKey() + " voor een totale prijs van "+ ((int)e.getValue()*pp.getPrijs()) + " euro.");
+            System.out.println(e.getValue() + " stuk(s) van " + e.getKey() + " voor een totale prijs van " + ((int)e.getValue()*pp.getPrijs()) + " euro.");
         }
         
         System.out.println("De totale prijs is " + mandje.getTotalePrijs() + " euro.");
